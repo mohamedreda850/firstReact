@@ -9,7 +9,7 @@ import Contact from './Components/Contact/Contact';
 import Home from './Components/Home/Home';
  
 
-let x = createHashRouter([{
+let firstReact = createHashRouter([{
   path:'',
   element : <Layout />,
   children:[{
@@ -36,7 +36,7 @@ function App() {
 
   return (
     <>
-     <RouterProvider router={x}></RouterProvider>
+     <RouterProvider router={firstReact}></RouterProvider>
     </>
   )
 }
