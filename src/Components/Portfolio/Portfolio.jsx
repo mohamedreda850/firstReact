@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import img1 from './../../assets/port2.png'
-import img2 from './../../assets/port3.png'
-import img3 from './../../assets/poert1.png'
+import img1 from './../../../public/port2.png'
+import img2 from './../../../public/port3.png'
+import img3 from './../../../public/poert1.png'
 
 export default function Portfolio() {
   const [isModalOpen, setIsModalOpen] = useState(false)
