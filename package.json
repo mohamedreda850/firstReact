@@ -2,7 +2,7 @@
   "name": "start_framework",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mohamedreda850.github.io/firstReact",
+  "homepage": "https://mohamedreda850.github.io/firstReact/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

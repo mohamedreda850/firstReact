@@ -1,5 +1,8 @@
 import React from "react";
 import { useState } from "react";
+import img1 from './../../assets/port2.png'
+import img2 from './../../assets/port3.png'
+import img3 from './../../assets/poert1.png'
 
 export default function Portfolio() {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -16,12 +19,12 @@ export default function Portfolio() {
    
   }
   const images =[
-    "src/assets/port2.png",
-    "src/assets/port3.png",
-    "src/assets/poert1.png",
-    "src/assets/port2.png",
-    "src/assets/port3.png",
-    "src/assets/poert1.png",
+    img1,
+    img2,
+    img3,
+    img1,
+    img2,
+    img3,
   ]
   return (
     <>
