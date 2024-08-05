@@ -2,7 +2,8 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div>
+    <div 
+    >
       <div className="flex flex-col  items-center">
         <h1 className=" text-5xl font-bold text-center mt-4">
           CONATCT SECTION
@@ -14,8 +15,8 @@ export default function Contact() {
         </div>
       </div>
 
-      <div class="max-w-md mx-auto mb-32 px-5">
-        <div class="relative z-0 w-full mb-5 group">
+      <div class="lg:w-1/2 mx-auto  mb-32 px-5">
+        <div class="relative z-0 w-full my-5 group">
           <input
             type="text"
             name="user_name"
@@ -30,7 +31,7 @@ export default function Contact() {
             user name
           </label>
         </div>
-        <div class="relative z-0 w-full mb-5 group">
+        <div class="relative z-0 w-full my-5 group">
           <input
             type="text"
             name="user_age"
@@ -46,7 +47,7 @@ export default function Contact() {
             user age
           </label>
         </div>
-        <div class="relative z-0 w-full mb-5 group">
+        <div class="relative z-0 w-full my-5 group">
           <input
             type="email"
             name="user_email"
@@ -62,7 +63,7 @@ export default function Contact() {
             user email
           </label>
         </div>
-        <div class="relative z-0 w-full mb-5 group">
+        <div class="relative z-0 w-full my-5 group">
           <input
             type="password"
             name="user_password"

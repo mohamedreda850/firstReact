@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -11,7 +11,7 @@ function Navbar() {
 
       <nav  className="bg-[#2C3E50] z-40 flex items-center sticky top-0 right-0 left-0 p-4  h-[16vh]">
         <div className="w-[80%] mx-auto flex justify-between items-center">
-          <div className="text-white text-4xl font-bold">START FRAMEWORK</div>
+          <div className="text-white text-4xl font-bold cursor-pointer"><Link to='/'>START FRAMEWORK</Link></div>
           <div className="hidden md:flex space-x-6">
            
             <NavLink to='about' className="text-white  font-bold ">ABOUT</NavLink>
